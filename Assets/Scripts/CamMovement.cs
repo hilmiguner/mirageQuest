@@ -10,6 +10,8 @@ public class CamMovement : MonoBehaviour
 
     private float horizontalRot = 0.0f;
     private float verticalRot = 0.0f;
+
+    public float verticalLimit = 40;
     
     void Start()
     {
@@ -24,7 +26,7 @@ public class CamMovement : MonoBehaviour
         verticalRot += (-axisHorizontal*sensivity);
         horizontalRot += axisVertical*sensivity;
 
-        verticalRot = Mathf.Clamp(verticalRot, -35, 35);
+        verticalRot = Mathf.Clamp(verticalRot, -verticalLimit, verticalLimit);
 
         playerObj.transform.eulerAngles = new Vector3(playerObj.transform.eulerAngles.x, horizontalRot, 0);
 
