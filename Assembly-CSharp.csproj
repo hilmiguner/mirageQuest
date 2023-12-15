@@ -65,6 +65,13 @@
   <ItemGroup>
     <Compile Include="Assets/Scripts/CharacterMovement.cs" />
     <Compile Include="Assets/Scripts/CamMovement.cs" />
+    <Compile Include="Assets/Scripts/OutOfMapCheck.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets/ExternalPackages/Free Low Poly Desert Pack/Materials/Shaders/Vertex_Color_Unlit.shader" />
+    <None Include="Assets/ExternalPackages/Free Low Poly Desert Pack/Materials/Shaders/Vertex_Color_Basic.shader" />
+    <None Include="Assets/ExternalPackages/Baker House/Readme.txt" />
+    <None Include="Assets/ExternalPackages/SkySeries Freebie/Hdri setup.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -895,6 +902,10 @@
       <HintPath>/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Polybrush">
+      <HintPath>Library/ScriptAssemblies/Unity.Polybrush.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
       <Private>False</Private>
@@ -911,8 +922,16 @@
       <HintPath>Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Polybrush.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Polybrush.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TerrainTools.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.TerrainTools.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
@@ -941,6 +960,10 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TerrainTools">
+      <HintPath>Library/ScriptAssemblies/Unity.TerrainTools.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
