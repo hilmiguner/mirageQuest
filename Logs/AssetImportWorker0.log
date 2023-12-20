@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51860
+52658
 Successfully changed project path to: /Users/hilmiguner/Desktop/Programlama/Unity-Projects/MirageQuest
 /Users/hilmiguner/Desktop/Programlama/Unity-Projects/MirageQuest
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,12 +56,12 @@ Successfully changed project path to: /Users/hilmiguner/Desktop/Programlama/Unit
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8002555904] Host "[IP] 172.23.116.236 [Port] 0 [Flags] 2 [Guid] 1754593123 [EditorId] 1754593123 [Version] 1048832 [Id] OSXEditor(0,Hilmi-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8002555904] Host "[IP] 172.23.116.236 [Port] 0 [Flags] 2 [Guid] 2728787681 [EditorId] 2728787681 [Version] 1048832 [Id] OSXEditor(0,Hilmi-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8002555904] Host "[IP] 172.23.116.236 [Port] 0 [Flags] 2 [Guid] 1754593123 [EditorId] 1754593123 [Version] 1048832 [Id] OSXEditor(0,Hilmi-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8002555904] Host "[IP] 172.23.116.236 [Port] 0 [Flags] 2 [Guid] 2728787681 [EditorId] 2728787681 [Version] 1048832 [Id] OSXEditor(0,Hilmi-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 10.10 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.16 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.14f1 (eff2de9070d8)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -76,46 +76,46 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56764
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56509
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.14f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.003227 seconds.
-- Loaded All Assemblies, in  0.266 seconds
+Registered in 0.001442 seconds.
+- Loaded All Assemblies, in  0.263 seconds
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.157 seconds
-Domain Reload Profiling: 424ms
-	BeginReloadAssembly (92ms)
+- Finished resetting the current domain, in  0.153 seconds
+Domain Reload Profiling: 416ms
+	BeginReloadAssembly (98ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (25ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (23ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (108ms)
-		LoadAssemblies (91ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (103ms)
+		LoadAssemblies (98ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (105ms)
-			TypeCache.Refresh (104ms)
-				TypeCache.ScanAssembly (94ms)
+		AnalyzeDomain (101ms)
+			TypeCache.Refresh (100ms)
+				TypeCache.ScanAssembly (90ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (158ms)
+	FinalizeReload (153ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (119ms)
+		SetupLoadedEditorAssemblies (113ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (4ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (80ms)
-			ProcessInitializeOnLoadMethodAttributes (29ms)
+			ProcessInitializeOnLoadAttributes (76ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -123,8 +123,8 @@ Domain Reload Profiling: 424ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.424 seconds
-Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.425 seconds
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -132,48 +132,48 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.390 seconds
-Domain Reload Profiling: 814ms
-	BeginReloadAssembly (76ms)
+- Finished resetting the current domain, in  0.376 seconds
+Domain Reload Profiling: 801ms
+	BeginReloadAssembly (85ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (17ms)
-	RebuildCommonClasses (24ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (25ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (292ms)
-		LoadAssemblies (193ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (284ms)
+		LoadAssemblies (198ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (132ms)
-			TypeCache.Refresh (120ms)
-				TypeCache.ScanAssembly (105ms)
+		AnalyzeDomain (126ms)
+			TypeCache.Refresh (114ms)
+				TypeCache.ScanAssembly (99ms)
 			ScanForSourceGeneratedMonoScriptInfo (8ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (390ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (377ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (293ms)
+		SetupLoadedEditorAssemblies (281ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (31ms)
-			ProcessInitializeOnLoadAttributes (245ms)
+			BeforeProcessingInitializeOnLoad (32ms)
+			ProcessInitializeOnLoadAttributes (232ms)
 			ProcessInitializeOnLoadMethodAttributes (12ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (3ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.20 seconds
-Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.16 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3372 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 54 unused Assets / (0.6 MB). Loaded Objects now: 3870.
-Memory consumption went from 171.0 MB to 170.4 MB.
-Total: 2.488792 ms (FindLiveObjects: 0.142459 ms CreateObjectMapping: 0.045208 ms MarkObjects: 2.166833 ms  DeleteObjects: 0.133583 ms)
+Unloading 3386 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (0.6 MB). Loaded Objects now: 3885.
+Memory consumption went from 171.9 MB to 171.2 MB.
+Total: 2.848708 ms (FindLiveObjects: 0.163709 ms CreateObjectMapping: 0.085125 ms MarkObjects: 2.450334 ms  DeleteObjects: 0.148833 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -189,153 +189,420 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 47726.163580 seconds.
-  path: Assets/ExternalPackages/odin-npc-elf-female
-  artifactKey: Guid(81a1bbdc89870461db4218e5043345e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalPackages/odin-npc-elf-female using Guid(81a1bbdc89870461db4218e5043345e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee488c39b2e7da9121799e3d5729f702') in 0.001368 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000113 seconds.
-  path: Assets/ExternalPackages/odin-npc-elf-female/source/NPC_Elf_female.fbx
-  artifactKey: Guid(c8cb3e5c8bc88463ca116b3a533fe670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalPackages/odin-npc-elf-female/source/NPC_Elf_female.fbx using Guid(c8cb3e5c8bc88463ca116b3a533fe670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be8384affb2f3f2862f07a32ea502142') in 0.228053 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 309
-========================================================================
-Received Import Request.
-  Time since last request: 571.701394 seconds.
-  path: Assets/ExternalPackages/odin-npc-elf-female/textures/NPC_female_body01_021_col.tga.png
-  artifactKey: Guid(e12f9d476eef94b4e886ad504267f551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalPackages/odin-npc-elf-female/textures/NPC_female_body01_021_col.tga.png using Guid(e12f9d476eef94b4e886ad504267f551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0055424554d3db55ce076ee5e71832e') in 0.042344 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/ExternalPackages/odin-npc-elf-female/textures/NPC_female_face_021_col.tga.png
-  artifactKey: Guid(d9e6a6e5bc1d64750b6ff7ead335c4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalPackages/odin-npc-elf-female/textures/NPC_female_face_021_col.tga.png using Guid(d9e6a6e5bc1d64750b6ff7ead335c4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3b9ed75c904bf7571acd096d6458e49') in 0.005365 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/ExternalPackages/odin-npc-elf-female/textures/NPC_female_body02_021_nml.tga.png
-  artifactKey: Guid(9302b8a5e6fcd46e7934f71272cc53f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalPackages/odin-npc-elf-female/textures/NPC_female_body02_021_nml.tga.png using Guid(9302b8a5e6fcd46e7934f71272cc53f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf2039e6ececd291c0e5499e92995b4') in 0.007565 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/ExternalPackages/odin-npc-elf-female/textures/NPC_female_hair01_021_nmll.tga.png
-  artifactKey: Guid(d1155e323fdf44b48a1dea2c3a03569d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalPackages/odin-npc-elf-female/textures/NPC_female_hair01_021_nmll.tga.png using Guid(d1155e323fdf44b48a1dea2c3a03569d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fab8c3d214ab51cd7d43bbec90b6299') in 0.004707 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/ExternalPackages/odin-npc-elf-female/textures/NPC_female_face_021_nml.tga.png
-  artifactKey: Guid(88df031edd3e4466c8adcfc5becb3a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalPackages/odin-npc-elf-female/textures/NPC_female_face_021_nml.tga.png using Guid(88df031edd3e4466c8adcfc5becb3a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75cddc8db87a5ccea0e7a1b8431e761c') in 0.005645 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000107 seconds.
-  path: Assets/ExternalPackages/odin-npc-elf-female/textures/NPC_female_body02_021_col.tga.png
-  artifactKey: Guid(77d53c45641e64854adf4ea52c8f57e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalPackages/odin-npc-elf-female/textures/NPC_female_body02_021_col.tga.png using Guid(77d53c45641e64854adf4ea52c8f57e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '421d2f2e728e450ef1bd6672fa3ed6fd') in 0.005001 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/ExternalPackages/odin-npc-elf-female/textures/NPC_female_face_021_mask.tga.png
-  artifactKey: Guid(9198972d561894df98d1287504c6e5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalPackages/odin-npc-elf-female/textures/NPC_female_face_021_mask.tga.png using Guid(9198972d561894df98d1287504c6e5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727fb6680f518ea373766660ae093fdf') in 0.004719 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/ExternalPackages/odin-npc-elf-female/textures/NPC_female_hair01_021_mask.tga.png
-  artifactKey: Guid(18e4b41f57b224f52a9d75cd3d33f89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalPackages/odin-npc-elf-female/textures/NPC_female_hair01_021_mask.tga.png using Guid(18e4b41f57b224f52a9d75cd3d33f89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '654a9bad040c6bd38f42dfe2f70f6b83') in 0.006249 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/ExternalPackages/odin-npc-elf-female/textures/NPC_female_body01_021_nml.tga.png
-  artifactKey: Guid(9be5767931ea54954bf669f2d6a43e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalPackages/odin-npc-elf-female/textures/NPC_female_body01_021_nml.tga.png using Guid(9be5767931ea54954bf669f2d6a43e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee2588643b4c943a9a8f6dc612509cc7') in 0.007682 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/ExternalPackages/odin-npc-elf-female/textures/npc_female_eyehair_col.tga.png
-  artifactKey: Guid(17a8564e05e224275a502ff872fd6bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalPackages/odin-npc-elf-female/textures/npc_female_eyehair_col.tga.png using Guid(17a8564e05e224275a502ff872fd6bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc7413a8857b27fc530319b7fcedabcb') in 0.004711 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
 Received Prepare
+Assembly with name 'MToon.Editor' already exists (Assets/ExternalPackages/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon' already exists (Assets/ExternalPackages/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/ExternalPackages/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon' already exists (Assets/ExternalPackages/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
 Begin MonoManager ReloadAssembly
-Thread 0x286dab000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.322 seconds
-Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Thread 0x17fe87000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.267 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
+Assembly with name 'MToon.Editor' already exists (Assets/ExternalPackages/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon' already exists (Assets/ExternalPackages/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.773 seconds
-Domain Reload Profiling: 1095ms
-	BeginReloadAssembly (110ms)
+- Finished resetting the current domain, in  0.477 seconds
+Domain Reload Profiling: 744ms
+	BeginReloadAssembly (84ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (44ms)
+		CreateAndSetChildDomain (27ms)
 	RebuildCommonClasses (23ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (15ms)
-	LoadAllAssembliesAndSetupDomain (166ms)
-		LoadAssemblies (177ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (138ms)
+		LoadAssemblies (152ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (24ms)
-			TypeCache.Refresh (19ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (9ms)
 				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (773ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (477ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (257ms)
+		SetupLoadedEditorAssemblies (269ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (36ms)
-			ProcessInitializeOnLoadAttributes (201ms)
-			ProcessInitializeOnLoadMethodAttributes (14ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (204ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (2ms)
-Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3323 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (0.6 MB). Loaded Objects now: 3920.
-Memory consumption went from 170.8 MB to 170.2 MB.
-Total: 2.555417 ms (FindLiveObjects: 0.153334 ms CreateObjectMapping: 0.043166 ms MarkObjects: 2.258834 ms  DeleteObjects: 0.099625 ms)
+Unloading 3337 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (0.6 MB). Loaded Objects now: 3888.
+Memory consumption went from 166.9 MB to 166.2 MB.
+Total: 2.769667 ms (FindLiveObjects: 0.158208 ms CreateObjectMapping: 0.044334 ms MarkObjects: 2.460125 ms  DeleteObjects: 0.106209 ms)
+
+Prepare: number of updated asset objects reloaded= 1
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 50577.498308 seconds.
+  path: Assets/ExternalPackages/3d-character_animeGirlAkane/Prefab
+  artifactKey: Guid(018ee0fdf07aa6d4bae646dd5ca56a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalPackages/3d-character_animeGirlAkane/Prefab using Guid(018ee0fdf07aa6d4bae646dd5ca56a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06fc51dc4ef682bf2b5952b300078519') in 0.001145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.981373 seconds.
+  path: Assets/ExternalPackages/3d-character_animeGirlAkane/Prefab/angGirl.prefab
+  artifactKey: Guid(472eda4c7fef9044098f07d1125affaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalPackages/3d-character_animeGirlAkane/Prefab/angGirl.prefab using Guid(472eda4c7fef9044098f07d1125affaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0fb69804654d8bc80797e63c249112') in 1.020718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 249
+========================================================================
+Received Import Request.
+  Time since last request: 17.263932 seconds.
+  path: Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/angGirl.fbx
+  artifactKey: Guid(1679e2eb6e9a6344c994a61f31e35389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/angGirl.fbx using Guid(1679e2eb6e9a6344c994a61f31e35389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aa5d045bff3ce61712d739e3b0d5338') in 0.100320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 248
+========================================================================
+Received Import Request.
+  Time since last request: 102.730478 seconds.
+  path: Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/materials
+  artifactKey: Guid(a06ece4fa448fee4bbf4789a068addc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/materials using Guid(a06ece4fa448fee4bbf4789a068addc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1870b18298d558ac6612bd818664b8a') in 0.003744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.136218 seconds.
+  path: Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/materials/N00_000_00_Body_00_SKIN (Instance).mat
+  artifactKey: Guid(51e3fbf0699620e4e9112c94e703fc97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/materials/N00_000_00_Body_00_SKIN (Instance).mat using Guid(51e3fbf0699620e4e9112c94e703fc97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03d804ec9bd7cab08e1b493b866231a3') in 0.074105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/materials/N00_000_00_Face_00_SKIN (Instance).mat
+  artifactKey: Guid(209c3b49d6c7728428a810e7803aecc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/materials/N00_000_00_Face_00_SKIN (Instance).mat using Guid(209c3b49d6c7728428a810e7803aecc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05304daaa470270d07c40922ed59a5f1') in 0.008905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/materials/N00_000_00_HairBack_00_HAIR (Instance).mat
+  artifactKey: Guid(f09d94dc098041542ad292280537ff7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/materials/N00_000_00_HairBack_00_HAIR (Instance).mat using Guid(f09d94dc098041542ad292280537ff7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c20cf766620e829b1cb2d881a1923ea4') in 0.007709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/materials/N00_000_00_EyeWhite_00_EYE (Instance).mat
+  artifactKey: Guid(6a520fcb54d763346b7a69ca7ce5d13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/materials/N00_000_00_EyeWhite_00_EYE (Instance).mat using Guid(6a520fcb54d763346b7a69ca7ce5d13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c32c7cef884633af443a6e74cc42e8') in 0.007388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/materials/N00_000_00_FaceEyeline_00_FACE (Instance).mat
+  artifactKey: Guid(2998e93663e6cc642ada36525133b9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/materials/N00_000_00_FaceEyeline_00_FACE (Instance).mat using Guid(2998e93663e6cc642ada36525133b9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '352bbfa225c409d5ff75b15ab5ac4e3a') in 0.004621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/materials/N00_000_Hair_00_HAIR (Instance).mat
+  artifactKey: Guid(8e6524362753fca469ed92c208e314c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/materials/N00_000_Hair_00_HAIR (Instance).mat using Guid(8e6524362753fca469ed92c208e314c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f548961612aa906e24569c3b54c26b43') in 0.005473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/materials/N00_000_00_FaceBrow_00_FACE (Instance).mat
+  artifactKey: Guid(af38dde51c7cfcb4ab6f6fcb6cf18749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/materials/N00_000_00_FaceBrow_00_FACE (Instance).mat using Guid(af38dde51c7cfcb4ab6f6fcb6cf18749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d6c77a002acb8b988021fccb85560f4') in 0.005660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/materials/N00_002_01_Tops_01_CLOTH (Instance).mat
+  artifactKey: Guid(47592d5c58d82c148810bb2af39dea90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/materials/N00_002_01_Tops_01_CLOTH (Instance).mat using Guid(47592d5c58d82c148810bb2af39dea90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b59ae48b29a688fea4f95bcfcaa665f4') in 0.013671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/materials/N00_001_01_Shoes_01_CLOTH (Instance).mat
+  artifactKey: Guid(486a1bfea4ede20488a8fb78d4977b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/materials/N00_001_01_Shoes_01_CLOTH (Instance).mat using Guid(486a1bfea4ede20488a8fb78d4977b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16dd7d6df76e39a10c4f842a99dc917d') in 0.004786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/materials/N00_000_00_FaceMouth_00_FACE (Instance).mat
+  artifactKey: Guid(c07901b5560e42444b06c12f972dd5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/materials/N00_000_00_FaceMouth_00_FACE (Instance).mat using Guid(c07901b5560e42444b06c12f972dd5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce7a0791851e650d1e61094f7a4556a8') in 0.004860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.195632 seconds.
+  path: Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/textures
+  artifactKey: Guid(deb742775c26a1145a360eac57eb15ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/textures using Guid(deb742775c26a1145a360eac57eb15ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d28d14f756e44d3f37e12d8f71b679') in 0.000298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.120616 seconds.
+  path: Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/textures/_01.png
+  artifactKey: Guid(0f8392764569ba04a84fe7fbba6c33c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/textures/_01.png using Guid(0f8392764569ba04a84fe7fbba6c33c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3d9b6393a4891fd87b9f26b118562b4') in 0.023910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/textures/_13.png
+  artifactKey: Guid(f80dfae63bcdb274da94d73b330a6740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/textures/_13.png using Guid(f80dfae63bcdb274da94d73b330a6740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a466a28b516c14f13e387efb364a504c') in 0.005984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/textures/_06.png
+  artifactKey: Guid(9e7b36e0d1d0ec3418f804822d3fbefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/textures/_06.png using Guid(9e7b36e0d1d0ec3418f804822d3fbefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '921293de3c39529e565f315af35abe38') in 0.004285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/textures/_15.png
+  artifactKey: Guid(0cdd88c85a79f7b449cbdbb7970510a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/textures/_15.png using Guid(0cdd88c85a79f7b449cbdbb7970510a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e35db7507d09d7eef8b39f3ac66c1815') in 0.005551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/textures/_09.png
+  artifactKey: Guid(f7553d59a2f739f429b92952bc7a3d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/textures/_09.png using Guid(f7553d59a2f739f429b92952bc7a3d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca326b1e7badca395eef7cf83d319c16') in 0.004091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/textures/Thumbnail.png
+  artifactKey: Guid(fdacfcae4f6e2a642b2a1586632507e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/textures/Thumbnail.png using Guid(fdacfcae4f6e2a642b2a1586632507e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f25886d42d6264bfd0e43efb9fa1ee4a') in 0.005983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/textures/_14.png
+  artifactKey: Guid(fceabfb96bca3bd4d85a2b4faa8a0663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/textures/_14.png using Guid(fceabfb96bca3bd4d85a2b4faa8a0663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16a3ccb5a7c96595cbe90bb172394e72') in 0.003988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/textures/_12.png
+  artifactKey: Guid(4399fefcac546e143b0f6c667a7dcbf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/textures/_12.png using Guid(4399fefcac546e143b0f6c667a7dcbf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba6b9e94cb6ab764aed3c46f3ef1406') in 0.004840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/textures/N00_000_Hair_00_nml.png
+  artifactKey: Guid(5dcb52556be8ae6488eb71895740b617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/textures/N00_000_Hair_00_nml.png using Guid(5dcb52556be8ae6488eb71895740b617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '911d790b9ccbbfa7d02a7e3015e8b4d9') in 0.005637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/textures/N00_000_00_Face_00_out.png
+  artifactKey: Guid(f296706011119814690b434b3a4c61b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/textures/N00_000_00_Face_00_out.png using Guid(f296706011119814690b434b3a4c61b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93acec46a00d99017bf901b0a4e518d3') in 0.003809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/textures/_05.png
+  artifactKey: Guid(8e394efc008fd6148a8aa0fde1a39e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/textures/_05.png using Guid(8e394efc008fd6148a8aa0fde1a39e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43fd938a10583781f2f70aa52b485b10') in 0.052365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 220.868145 seconds.
+  path: Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/AstraRunning.anim
+  artifactKey: Guid(6370a6cd0bc044402b685601d49316c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/AstraRunning.anim using Guid(6370a6cd0bc044402b685601d49316c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e118c37291f8e392c57092dab97725ae') in 0.004463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.403896 seconds.
+  path: Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/angGirl.controller
+  artifactKey: Guid(21bc8fcb5693e43cda70489e37c38b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/angGirl.controller using Guid(21bc8fcb5693e43cda70489e37c38b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b8c3555ebb052282b00dbe00f0c981') in 0.002057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 22.838315 seconds.
+  path: Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/angGirl.fbx
+  artifactKey: Guid(1679e2eb6e9a6344c994a61f31e35389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/angGirl.fbx using Guid(1679e2eb6e9a6344c994a61f31e35389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a316d80514d060bdd8c447932b38564') in 0.080738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 248
+========================================================================
+Received Import Request.
+  Time since last request: 40.316895 seconds.
+  path: Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/angGirl.fbx
+  artifactKey: Guid(1679e2eb6e9a6344c994a61f31e35389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/angGirl.fbx using Guid(1679e2eb6e9a6344c994a61f31e35389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02dbfcca2eba7b6e4786f4288d3caba8') in 0.063916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 248
+========================================================================
+Received Import Request.
+  Time since last request: 48.055542 seconds.
+  path: Assets/ExternalPackages/3d-character_animeGirlAkane/Prefab/angGirl.prefab
+  artifactKey: Guid(472eda4c7fef9044098f07d1125affaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalPackages/3d-character_animeGirlAkane/Prefab/angGirl.prefab using Guid(472eda4c7fef9044098f07d1125affaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09013de2132eed58ff73a8f310c6d99b') in 0.065783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 249
+========================================================================
+Received Import Request.
+  Time since last request: 9.024475 seconds.
+  path: Assets/ExternalPackages/3d-character_animeGirlAkane/Akane
+  artifactKey: Guid(e82c766da012d694dbe20c24bde8aa6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalPackages/3d-character_animeGirlAkane/Akane using Guid(e82c766da012d694dbe20c24bde8aa6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '471475756aee2cb78a7cdfa9d8d81b9a') in 0.002569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 45.857264 seconds.
+  path: Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/angGirl.fbx
+  artifactKey: Guid(1679e2eb6e9a6344c994a61f31e35389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/angGirl.fbx using Guid(1679e2eb6e9a6344c994a61f31e35389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3eba06802c5bec6b2fd9228cb7b552f') in 0.048947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 248
+========================================================================
+Received Import Request.
+  Time since last request: 228.743346 seconds.
+  path: Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/angGirl 1.controller
+  artifactKey: Guid(2ccd74943e40a4b0184908ce8747d4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/angGirl 1.controller using Guid(2ccd74943e40a4b0184908ce8747d4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd74cf0fccda0e30db5fc86f8f874501f') in 0.004947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Assembly with name 'MToon.Editor' already exists (Assets/ExternalPackages/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon' already exists (Assets/ExternalPackages/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/ExternalPackages/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon' already exists (Assets/ExternalPackages/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x17fe87000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.314 seconds
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'MToon.Editor' already exists (Assets/ExternalPackages/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon' already exists (Assets/ExternalPackages/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.777 seconds
+Domain Reload Profiling: 1092ms
+	BeginReloadAssembly (102ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (168ms)
+		LoadAssemblies (181ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (777ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (278ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (209ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3336 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (0.6 MB). Loaded Objects now: 3943.
+Memory consumption went from 177.4 MB to 176.7 MB.
+Total: 2.672083 ms (FindLiveObjects: 0.169083 ms CreateObjectMapping: 0.045083 ms MarkObjects: 2.305875 ms  DeleteObjects: 0.151542 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -353,139 +620,171 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 810.549232 seconds.
-  path: Assets/Prefabs/NPC_Elf_female.prefab
-  artifactKey: Guid(b2173b995509d4e008e16ff71001c88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/NPC_Elf_female.prefab using Guid(b2173b995509d4e008e16ff71001c88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a05b677891f8bc552c9afa2e9d62714') in 0.115361 seconds
+  Time since last request: 123.421870 seconds.
+  path: Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/angGirl.fbx
+  artifactKey: Guid(1679e2eb6e9a6344c994a61f31e35389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/angGirl.fbx using Guid(1679e2eb6e9a6344c994a61f31e35389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed106d26f4eee75f22141dc420a20e7') in 0.123741 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 615
+Number of asset objects unloaded after import = 248
 ========================================================================
 Received Import Request.
-  Time since last request: 46.274771 seconds.
-  path: Assets/Prefabs/NPC_Elf_female.prefab
-  artifactKey: Guid(b2173b995509d4e008e16ff71001c88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/NPC_Elf_female.prefab using Guid(b2173b995509d4e008e16ff71001c88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7aa415b9562e0487c7b8a7fc38f3c77') in 0.021573 seconds
+  Time since last request: 64.796362 seconds.
+  path: Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/angGirl.controller
+  artifactKey: Guid(21bc8fcb5693e43cda70489e37c38b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/angGirl.controller using Guid(21bc8fcb5693e43cda70489e37c38b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a00f7804539b01ab875fe262323fa5f') in 0.001834 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 615
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Prepare
+Assembly with name 'MToon.Editor' already exists (Assets/ExternalPackages/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon' already exists (Assets/ExternalPackages/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/ExternalPackages/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon' already exists (Assets/ExternalPackages/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
 Begin MonoManager ReloadAssembly
-Thread 0x282187000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.342 seconds
+Thread 0x17fe87000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.302 seconds
 Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
+Assembly with name 'MToon.Editor' already exists (Assets/ExternalPackages/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon' already exists (Assets/ExternalPackages/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.755 seconds
-Domain Reload Profiling: 1098ms
-	BeginReloadAssembly (97ms)
+- Finished resetting the current domain, in  0.808 seconds
+Domain Reload Profiling: 1111ms
+	BeginReloadAssembly (95ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (161ms)
+		LoadAssemblies (175ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (808ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (278ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (209ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3336 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (0.6 MB). Loaded Objects now: 3946.
+Memory consumption went from 183.7 MB to 183.1 MB.
+Total: 2.278625 ms (FindLiveObjects: 0.140334 ms CreateObjectMapping: 0.046334 ms MarkObjects: 1.980000 ms  DeleteObjects: 0.111417 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 44.836434 seconds.
+  path: Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/AstraAC.controller
+  artifactKey: Guid(10e55b40a689f400faaf0489dba284a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/AstraAC.controller using Guid(10e55b40a689f400faaf0489dba284a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c71c1c018055da44873cb3a6a66a4f') in 0.008880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Assembly with name 'MToon.Editor' already exists (Assets/ExternalPackages/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon' already exists (Assets/ExternalPackages/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/ExternalPackages/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon' already exists (Assets/ExternalPackages/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x16b0ef000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.270 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'MToon.Editor' already exists (Assets/ExternalPackages/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon' already exists (Assets/ExternalPackages/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.785 seconds
+Domain Reload Profiling: 1055ms
+	BeginReloadAssembly (96ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (36ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (14ms)
-	LoadAllAssembliesAndSetupDomain (200ms)
-		LoadAssemblies (209ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (26ms)
-			TypeCache.Refresh (22ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (756ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (259ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (32ms)
-			ProcessInitializeOnLoadAttributes (208ms)
-			ProcessInitializeOnLoadMethodAttributes (13ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (3ms)
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3323 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (0.6 MB). Loaded Objects now: 3923.
-Memory consumption went from 177.1 MB to 176.5 MB.
-Total: 2.575750 ms (FindLiveObjects: 0.139917 ms CreateObjectMapping: 0.041708 ms MarkObjects: 2.273625 ms  DeleteObjects: 0.120000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x17b407000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.254 seconds
-Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.831 seconds
-Domain Reload Profiling: 1085ms
-	BeginReloadAssembly (86ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (23ms)
+	RebuildCommonClasses (24ms)
 	RebuildNativeTypeToScriptingClass (8ms)
 	initialDomainReloadingComplete (13ms)
-	LoadAllAssembliesAndSetupDomain (124ms)
-		LoadAssemblies (145ms)
+	LoadAllAssembliesAndSetupDomain (129ms)
+		LoadAssemblies (152ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (11ms)
+		AnalyzeDomain (10ms)
 			TypeCache.Refresh (6ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (831ms)
+	FinalizeReload (785ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (255ms)
+		SetupLoadedEditorAssemblies (280ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (34ms)
-			ProcessInitializeOnLoadAttributes (203ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (213ms)
 			ProcessInitializeOnLoadMethodAttributes (12ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (2ms)
-Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3324 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (0.6 MB). Loaded Objects now: 3926.
-Memory consumption went from 183.1 MB to 182.5 MB.
-Total: 2.651000 ms (FindLiveObjects: 0.154166 ms CreateObjectMapping: 0.046084 ms MarkObjects: 2.234208 ms  DeleteObjects: 0.216041 ms)
+Unloading 3336 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (0.6 MB). Loaded Objects now: 3949.
+Memory consumption went from 189.5 MB to 188.9 MB.
+Total: 2.370708 ms (FindLiveObjects: 0.119375 ms CreateObjectMapping: 0.041458 ms MarkObjects: 2.089625 ms  DeleteObjects: 0.119666 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -503,187 +802,84 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 38.229063 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b9326e97e2461385864aa44f9e28ada') in 0.009262 seconds
+  Time since last request: 207.255556 seconds.
+  path: Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/AstraAC.controller
+  artifactKey: Guid(10e55b40a689f400faaf0489dba284a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalPackages/3d-character_animeGirlAkane/Akane/AstraAC.controller using Guid(10e55b40a689f400faaf0489dba284a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e805400334bedddff2c0ed16973c31') in 0.017899 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 81.779118 seconds.
-  path: Assets/Standard Assets
-  artifactKey: Guid(79e4b52d5035f7547b356fe4a04b160d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets using Guid(79e4b52d5035f7547b356fe4a04b160d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64b7bcca208e105d1084e8791c405553') in 0.001827 seconds
+  Time since last request: 74.995708 seconds.
+  path: Assets/ExternalPackages/3d-character_animeGirlAkane/Prefab/angGirl.prefab
+  artifactKey: Guid(472eda4c7fef9044098f07d1125affaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalPackages/3d-character_animeGirlAkane/Prefab/angGirl.prefab using Guid(472eda4c7fef9044098f07d1125affaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e76d9630152d694a00032ef9a51962a') in 0.118699 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2.359632 seconds.
-  path: Assets/Standard Assets/Environment
-  artifactKey: Guid(6ca8c4e270f964e0da9f731d7d34b123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Environment using Guid(6ca8c4e270f964e0da9f731d7d34b123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f637f8dc39e031c8dedd692d853c1640') in 0.000476 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.662859 seconds.
-  path: Assets/Standard Assets/Environment/SpeedTree
-  artifactKey: Guid(c04a867c41990cb44b46672730a8e63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Environment/SpeedTree using Guid(c04a867c41990cb44b46672730a8e63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3c12ac817f65278a21b045fa7110ec9') in 0.000431 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.412944 seconds.
-  path: Assets/Standard Assets/Environment/SpeedTree/Broadleaf
-  artifactKey: Guid(98f48093c79e1de4aad538371abbe607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Environment/SpeedTree/Broadleaf using Guid(98f48093c79e1de4aad538371abbe607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cbabf200cb1f817a49f354fe2b04101') in 0.000440 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 9.463364 seconds.
-  path: Assets/Shaders
-  artifactKey: Guid(3aa79e46a422b4c468a5ea2c4b158b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders using Guid(3aa79e46a422b4c468a5ea2c4b158b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24e46caed79d7751217f0605688bbc41') in 0.000405 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 125.475953 seconds.
-  path: Assets/Shaders/NoShadow.shader
-  artifactKey: Guid(6c221ea16432647de88d45c106ad7d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/NoShadow.shader using Guid(6c221ea16432647de88d45c106ad7d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd1505b141cc4750fef95448cefc6651') in 0.015726 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 11.150985 seconds.
-  path: Assets/Shaders/NoShadow.shader
-  artifactKey: Guid(6c221ea16432647de88d45c106ad7d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/NoShadow.shader using Guid(6c221ea16432647de88d45c106ad7d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da72af2158498e2356991c1e896c860a') in 0.014446 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 248
 ========================================================================
 Received Prepare
+Assembly with name 'MToon.Editor' already exists (Assets/ExternalPackages/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon' already exists (Assets/ExternalPackages/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/ExternalPackages/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon' already exists (Assets/ExternalPackages/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
 Begin MonoManager ReloadAssembly
-Thread 0x17b407000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.341 seconds
-Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Thread 0x16b0ef000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.323 seconds
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
+Assembly with name 'MToon.Editor' already exists (Assets/ExternalPackages/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon' already exists (Assets/ExternalPackages/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.757 seconds
-Domain Reload Profiling: 1098ms
-	BeginReloadAssembly (104ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (42ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (15ms)
-	LoadAllAssembliesAndSetupDomain (190ms)
-		LoadAssemblies (206ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (19ms)
-			TypeCache.Refresh (14ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (757ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (259ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (33ms)
-			ProcessInitializeOnLoadAttributes (208ms)
-			ProcessInitializeOnLoadMethodAttributes (13ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (3ms)
-Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3323 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (0.6 MB). Loaded Objects now: 3929.
-Memory consumption went from 188.8 MB to 188.2 MB.
-Total: 2.725167 ms (FindLiveObjects: 0.166917 ms CreateObjectMapping: 0.060208 ms MarkObjects: 2.356542 ms  DeleteObjects: 0.140750 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x17b407000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.283 seconds
-Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.788 seconds
-Domain Reload Profiling: 1072ms
-	BeginReloadAssembly (103ms)
+- Finished resetting the current domain, in  0.782 seconds
+Domain Reload Profiling: 1106ms
+	BeginReloadAssembly (101ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (39ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (8ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
 	initialDomainReloadingComplete (14ms)
-	LoadAllAssembliesAndSetupDomain (136ms)
-		LoadAssemblies (152ms)
+	LoadAllAssembliesAndSetupDomain (175ms)
+		LoadAssemblies (192ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (19ms)
-			TypeCache.Refresh (9ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (12ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (788ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (782ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (255ms)
+		SetupLoadedEditorAssemblies (281ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (32ms)
-			ProcessInitializeOnLoadAttributes (203ms)
-			ProcessInitializeOnLoadMethodAttributes (13ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (212ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
-Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3324 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (0.6 MB). Loaded Objects now: 3932.
-Memory consumption went from 194.8 MB to 194.2 MB.
-Total: 2.933750 ms (FindLiveObjects: 0.375792 ms CreateObjectMapping: 0.045125 ms MarkObjects: 2.386083 ms  DeleteObjects: 0.126292 ms)
+Unloading 3336 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (0.6 MB). Loaded Objects now: 3952.
+Memory consumption went from 195.7 MB to 195.1 MB.
+Total: 2.324667 ms (FindLiveObjects: 0.127500 ms CreateObjectMapping: 0.041542 ms MarkObjects: 2.017542 ms  DeleteObjects: 0.137375 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -699,3 +895,185 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'MToon.Editor' already exists (Assets/ExternalPackages/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon' already exists (Assets/ExternalPackages/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/ExternalPackages/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon' already exists (Assets/ExternalPackages/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x16b0ef000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.360 seconds
+Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'MToon.Editor' already exists (Assets/ExternalPackages/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon' already exists (Assets/ExternalPackages/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.773 seconds
+Domain Reload Profiling: 1137ms
+	BeginReloadAssembly (107ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (211ms)
+		LoadAssemblies (218ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (21ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (774ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (276ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (210ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3337 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (0.6 MB). Loaded Objects now: 3955.
+Memory consumption went from 201.6 MB to 201.0 MB.
+Total: 2.553959 ms (FindLiveObjects: 0.133083 ms CreateObjectMapping: 0.043000 ms MarkObjects: 2.168417 ms  DeleteObjects: 0.208958 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'MToon.Editor' already exists (Assets/ExternalPackages/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon' already exists (Assets/ExternalPackages/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/ExternalPackages/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon' already exists (Assets/ExternalPackages/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x16b0ef000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.276 seconds
+Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'MToon.Editor' already exists (Assets/ExternalPackages/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon' already exists (Assets/ExternalPackages/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.788 seconds
+Domain Reload Profiling: 1064ms
+	BeginReloadAssembly (91ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (139ms)
+		LoadAssemblies (164ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (788ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (274ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (204ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3337 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (0.6 MB). Loaded Objects now: 3958.
+Memory consumption went from 207.2 MB to 206.6 MB.
+Total: 2.727250 ms (FindLiveObjects: 0.203250 ms CreateObjectMapping: 0.052917 ms MarkObjects: 2.336625 ms  DeleteObjects: 0.133625 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 383.161332 seconds.
+  path: Assets/ExternalPackages/3d-character_animeGirlAkane/Prefab/angGirl.prefab
+  artifactKey: Guid(472eda4c7fef9044098f07d1125affaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalPackages/3d-character_animeGirlAkane/Prefab/angGirl.prefab using Guid(472eda4c7fef9044098f07d1125affaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b5c296fd1365b63f11c16b71b1985b') in 0.104546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 258
+========================================================================
+Received Import Request.
+  Time since last request: 14.841641 seconds.
+  path: Assets/Prefabs/NPC_Elf_female.prefab
+  artifactKey: Guid(b2173b995509d4e008e16ff71001c88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NPC_Elf_female.prefab using Guid(b2173b995509d4e008e16ff71001c88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ffb0608fc218cb39b9df6ed6145777b') in 0.058120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 615
+========================================================================
+Received Import Request.
+  Time since last request: 6.317850 seconds.
+  path: Assets/Prefabs/Astra.prefab
+  artifactKey: Guid(02e8e5b60ab2f46868e4f05e47ca1c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Astra.prefab using Guid(02e8e5b60ab2f46868e4f05e47ca1c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db5f8446d47b08ea9ccf1cd980842de4') in 0.055523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 258
