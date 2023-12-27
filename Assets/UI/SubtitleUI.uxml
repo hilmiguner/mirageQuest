@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Root" style="flex-grow: 1; justify-content: flex-end; align-self: center; align-items: center;">
+        <ui:VisualElement name="SubtitleContainer" style="flex-grow: 0; justify-content: flex-end; flex-direction: column; margin-bottom: 33px;">
+            <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Subtitle" enable-rich-text="true" style="flex-direction: column; flex-shrink: 1; flex-grow: 0; align-self: auto; -unity-text-align: upper-center; margin-bottom: 74px; -unity-font-style: bold; font-size: 20px; white-space: normal; color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); flex-basis: auto; justify-content: flex-start; align-items: stretch; text-overflow: clip; flex-wrap: nowrap;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
