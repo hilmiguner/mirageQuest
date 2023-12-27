@@ -5186,3 +5186,2970 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x17c9ff000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.509 seconds
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.929 seconds
+Domain Reload Profiling: 1439ms
+	BeginReloadAssembly (177ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (84ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (271ms)
+		LoadAssemblies (300ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (31ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (929ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (314ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (254ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3532 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 78 unused Assets / (4.3 MB). Loaded Objects now: 4349.
+Memory consumption went from 490.6 MB to 486.3 MB.
+Total: 5.244833 ms (FindLiveObjects: 0.217916 ms CreateObjectMapping: 0.053042 ms MarkObjects: 3.612458 ms  DeleteObjects: 1.360708 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x17c9ff000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.370 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.455 seconds
+Domain Reload Profiling: 825ms
+	BeginReloadAssembly (114ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (204ms)
+		LoadAssemblies (162ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (80ms)
+			TypeCache.Refresh (66ms)
+				TypeCache.ScanAssembly (54ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (455ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (271ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (38ms)
+			ProcessInitializeOnLoadAttributes (212ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3532 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 78 unused Assets / (4.3 MB). Loaded Objects now: 4352.
+Memory consumption went from 494.7 MB to 490.4 MB.
+Total: 3.327917 ms (FindLiveObjects: 0.159625 ms CreateObjectMapping: 0.049167 ms MarkObjects: 2.155125 ms  DeleteObjects: 0.963208 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x17c9ff000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.422 seconds
+Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.872 seconds
+Domain Reload Profiling: 1295ms
+	BeginReloadAssembly (141ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (226ms)
+		LoadAssemblies (259ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (34ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (3ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (873ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (306ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (231ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3532 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 78 unused Assets / (4.3 MB). Loaded Objects now: 4355.
+Memory consumption went from 499.0 MB to 494.8 MB.
+Total: 4.627250 ms (FindLiveObjects: 0.245959 ms CreateObjectMapping: 0.066250 ms MarkObjects: 2.802250 ms  DeleteObjects: 1.510709 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 18541.138089 seconds.
+  path: Assets/ExternalPackages/SineVFX/TranslucentCrystals/Prefabs/Crystalsv02.prefab
+  artifactKey: Guid(f035235bfe0fb5d48b6f85818f4f000e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalPackages/SineVFX/TranslucentCrystals/Prefabs/Crystalsv02.prefab using Guid(f035235bfe0fb5d48b6f85818f4f000e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d7bc7fabd428daa29a67b358876948') in 0.847695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/ExternalPackages/SineVFX/TranslucentCrystals/Prefabs/Crystalsv08.prefab
+  artifactKey: Guid(da6e8bbd483d22c449e703a7e40afde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalPackages/SineVFX/TranslucentCrystals/Prefabs/Crystalsv08.prefab using Guid(da6e8bbd483d22c449e703a7e40afde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f682809b1339c6467a823508d7f3ea') in 0.397752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/ExternalPackages/SineVFX/TranslucentCrystals/Prefabs/Crystalsv07.prefab
+  artifactKey: Guid(67c6e02e204ef6244a8f475a94826851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalPackages/SineVFX/TranslucentCrystals/Prefabs/Crystalsv07.prefab using Guid(67c6e02e204ef6244a8f475a94826851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '100a0edb715c1b19598eb44eb52d4ff0') in 0.016137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ExternalPackages/SineVFX/TranslucentCrystals/Prefabs/Crystalsv06.prefab
+  artifactKey: Guid(4aa7f4f0acab60742bea9a9f6a3bb144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalPackages/SineVFX/TranslucentCrystals/Prefabs/Crystalsv06.prefab using Guid(4aa7f4f0acab60742bea9a9f6a3bb144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dbd88f496aea30197d7cbe39dc9f8e4') in 0.015221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ExternalPackages/SineVFX/TranslucentCrystals/Prefabs/Crystalsv03.prefab
+  artifactKey: Guid(03fc9d38e2dd7c343baa918a99f6d833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalPackages/SineVFX/TranslucentCrystals/Prefabs/Crystalsv03.prefab using Guid(03fc9d38e2dd7c343baa918a99f6d833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2740e0df50c5d850afea0701ee70535a') in 0.020895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Prepare
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x17c9ff000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.427 seconds
+Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.838 seconds
+Domain Reload Profiling: 1266ms
+	BeginReloadAssembly (119ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (256ms)
+		LoadAssemblies (241ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (51ms)
+			TypeCache.Refresh (44ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (838ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (306ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (226ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3531 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (3.7 MB). Loaded Objects now: 4359.
+Memory consumption went from 503.4 MB to 499.7 MB.
+Total: 3.658875 ms (FindLiveObjects: 0.194209 ms CreateObjectMapping: 0.050166 ms MarkObjects: 2.561500 ms  DeleteObjects: 0.852167 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 827.714910 seconds.
+  path: Assets/ExternalPackages/SineVFX/TranslucentCrystals/Prefabs/Gamma/Crystalsv02.prefab
+  artifactKey: Guid(1435c36dca02dc841a30bfac19f79aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalPackages/SineVFX/TranslucentCrystals/Prefabs/Gamma/Crystalsv02.prefab using Guid(1435c36dca02dc841a30bfac19f79aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72e20d9c30dc765536d910e7ca57bc1f') in 0.132438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/ExternalPackages/SineVFX/TranslucentCrystals/Prefabs/Gamma/Crystalsv04.prefab
+  artifactKey: Guid(83c0a85ae9c29184883b2866a6224b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalPackages/SineVFX/TranslucentCrystals/Prefabs/Gamma/Crystalsv04.prefab using Guid(83c0a85ae9c29184883b2866a6224b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90bf4a3bc3ffe200bf0b3c6699fed563') in 0.012116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Prepare
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x17c9ff000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.356 seconds
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.875 seconds
+Domain Reload Profiling: 1232ms
+	BeginReloadAssembly (120ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (183ms)
+		LoadAssemblies (195ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (875ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (317ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (232ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3530 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (3.7 MB). Loaded Objects now: 4362.
+Memory consumption went from 507.7 MB to 504.0 MB.
+Total: 3.459167 ms (FindLiveObjects: 0.183667 ms CreateObjectMapping: 0.050125 ms MarkObjects: 2.107041 ms  DeleteObjects: 1.117667 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x17c9ff000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.430 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.828 seconds
+Domain Reload Profiling: 1258ms
+	BeginReloadAssembly (117ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (258ms)
+		LoadAssemblies (241ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (55ms)
+			TypeCache.Refresh (33ms)
+				TypeCache.ScanAssembly (3ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (828ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (298ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (223ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3532 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (3.7 MB). Loaded Objects now: 4366.
+Memory consumption went from 511.9 MB to 508.2 MB.
+Total: 4.148417 ms (FindLiveObjects: 0.288208 ms CreateObjectMapping: 0.051709 ms MarkObjects: 2.877541 ms  DeleteObjects: 0.930459 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x17c9ff000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.363 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.837 seconds
+Domain Reload Profiling: 1201ms
+	BeginReloadAssembly (119ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (191ms)
+		LoadAssemblies (191ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (39ms)
+			TypeCache.Refresh (28ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (837ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (302ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (227ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3532 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (3.7 MB). Loaded Objects now: 4369.
+Memory consumption went from 0.50 GB to 0.50 GB.
+Total: 3.769625 ms (FindLiveObjects: 0.223917 ms CreateObjectMapping: 0.057792 ms MarkObjects: 2.531125 ms  DeleteObjects: 0.955667 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x17c9ff000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.400 seconds
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.832 seconds
+Domain Reload Profiling: 1232ms
+	BeginReloadAssembly (116ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (231ms)
+		LoadAssemblies (237ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (31ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (832ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (298ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (221ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3532 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (3.7 MB). Loaded Objects now: 4372.
+Memory consumption went from 0.51 GB to 0.50 GB.
+Total: 3.661333 ms (FindLiveObjects: 0.183208 ms CreateObjectMapping: 0.053292 ms MarkObjects: 2.612000 ms  DeleteObjects: 0.812250 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x17c9ff000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.416 seconds
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.797 seconds
+Domain Reload Profiling: 1214ms
+	BeginReloadAssembly (128ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (229ms)
+		LoadAssemblies (222ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (44ms)
+			TypeCache.Refresh (33ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (798ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (293ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (217ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3532 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (3.7 MB). Loaded Objects now: 4375.
+Memory consumption went from 0.51 GB to 0.51 GB.
+Total: 5.300167 ms (FindLiveObjects: 0.197541 ms CreateObjectMapping: 0.049625 ms MarkObjects: 4.149917 ms  DeleteObjects: 0.902583 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x282b7b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.368 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.589 seconds
+Domain Reload Profiling: 958ms
+	BeginReloadAssembly (112ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (202ms)
+		LoadAssemblies (210ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (20ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (589ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (326ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (233ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3532 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (3.7 MB). Loaded Objects now: 4378.
+Memory consumption went from 0.51 GB to 0.51 GB.
+Total: 3.736291 ms (FindLiveObjects: 0.207417 ms CreateObjectMapping: 0.051083 ms MarkObjects: 2.604333 ms  DeleteObjects: 0.872791 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x282b7b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.359 seconds
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.865 seconds
+Domain Reload Profiling: 1225ms
+	BeginReloadAssembly (123ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (183ms)
+		LoadAssemblies (198ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (25ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (866ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (320ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (228ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 2.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3532 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (3.7 MB). Loaded Objects now: 4381.
+Memory consumption went from 0.52 GB to 0.52 GB.
+Total: 3.391541 ms (FindLiveObjects: 0.204209 ms CreateObjectMapping: 0.056958 ms MarkObjects: 2.205833 ms  DeleteObjects: 0.923959 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x17c9ff000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.295 seconds
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.580 seconds
+Domain Reload Profiling: 876ms
+	BeginReloadAssembly (111ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (130ms)
+		LoadAssemblies (155ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (581ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (322ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (238ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3532 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (3.7 MB). Loaded Objects now: 4384.
+Memory consumption went from 0.52 GB to 0.52 GB.
+Total: 3.553167 ms (FindLiveObjects: 0.158292 ms CreateObjectMapping: 0.049708 ms MarkObjects: 2.425542 ms  DeleteObjects: 0.919083 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x17c9ff000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.438 seconds
+Refreshing native plugins compatible for Editor in 2.91 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.854 seconds
+Domain Reload Profiling: 1293ms
+	BeginReloadAssembly (119ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (266ms)
+		LoadAssemblies (263ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (39ms)
+			TypeCache.Refresh (22ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (854ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (309ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (233ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3532 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (3.7 MB). Loaded Objects now: 4387.
+Memory consumption went from 0.53 GB to 0.52 GB.
+Total: 3.675792 ms (FindLiveObjects: 0.224959 ms CreateObjectMapping: 0.052958 ms MarkObjects: 2.383167 ms  DeleteObjects: 1.014000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x17c9ff000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.392 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.540 seconds
+Domain Reload Profiling: 933ms
+	BeginReloadAssembly (117ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (222ms)
+		LoadAssemblies (233ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (20ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (540ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (308ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (227ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3532 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (3.7 MB). Loaded Objects now: 4390.
+Memory consumption went from 0.53 GB to 0.53 GB.
+Total: 3.663750 ms (FindLiveObjects: 0.184792 ms CreateObjectMapping: 0.068166 ms MarkObjects: 2.155208 ms  DeleteObjects: 1.255167 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x17c9ff000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.411 seconds
+Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.828 seconds
+Domain Reload Profiling: 1240ms
+	BeginReloadAssembly (121ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (222ms)
+		LoadAssemblies (200ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (60ms)
+			TypeCache.Refresh (44ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (829ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (302ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (224ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3532 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (3.7 MB). Loaded Objects now: 4393.
+Memory consumption went from 0.53 GB to 0.53 GB.
+Total: 4.442708 ms (FindLiveObjects: 0.225333 ms CreateObjectMapping: 0.051500 ms MarkObjects: 3.133208 ms  DeleteObjects: 1.031791 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x17c9ff000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.307 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.577 seconds
+Domain Reload Profiling: 884ms
+	BeginReloadAssembly (109ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (144ms)
+		LoadAssemblies (166ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (577ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (307ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (232ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3532 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (3.7 MB). Loaded Objects now: 4396.
+Memory consumption went from 0.54 GB to 0.53 GB.
+Total: 3.393584 ms (FindLiveObjects: 0.220250 ms CreateObjectMapping: 0.059875 ms MarkObjects: 2.152292 ms  DeleteObjects: 0.960667 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x17c9ff000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.405 seconds
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.873 seconds
+Domain Reload Profiling: 1279ms
+	BeginReloadAssembly (119ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (232ms)
+		LoadAssemblies (243ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (27ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (874ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (316ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (240ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3532 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (3.7 MB). Loaded Objects now: 4399.
+Memory consumption went from 0.54 GB to 0.54 GB.
+Total: 6.204125 ms (FindLiveObjects: 0.198667 ms CreateObjectMapping: 0.054500 ms MarkObjects: 4.945583 ms  DeleteObjects: 1.004666 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x17c9ff000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.308 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.627 seconds
+Domain Reload Profiling: 936ms
+	BeginReloadAssembly (114ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (140ms)
+		LoadAssemblies (170ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (628ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (338ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (264ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3532 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (3.7 MB). Loaded Objects now: 4402.
+Memory consumption went from 0.55 GB to 0.54 GB.
+Total: 3.518791 ms (FindLiveObjects: 0.190417 ms CreateObjectMapping: 0.050250 ms MarkObjects: 2.455792 ms  DeleteObjects: 0.821375 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x17c9ff000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.388 seconds
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.872 seconds
+Domain Reload Profiling: 1261ms
+	BeginReloadAssembly (121ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (214ms)
+		LoadAssemblies (226ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (28ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (872ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (310ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (235ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3532 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (3.7 MB). Loaded Objects now: 4405.
+Memory consumption went from 0.55 GB to 0.55 GB.
+Total: 3.843625 ms (FindLiveObjects: 0.290917 ms CreateObjectMapping: 0.077625 ms MarkObjects: 2.494750 ms  DeleteObjects: 0.979750 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x17c9ff000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.310 seconds
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.615 seconds
+Domain Reload Profiling: 926ms
+	BeginReloadAssembly (116ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (131ms)
+		LoadAssemblies (154ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (615ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (329ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (253ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3532 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (3.7 MB). Loaded Objects now: 4408.
+Memory consumption went from 0.55 GB to 0.55 GB.
+Total: 3.780917 ms (FindLiveObjects: 0.230583 ms CreateObjectMapping: 0.047375 ms MarkObjects: 2.254042 ms  DeleteObjects: 1.248083 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x17c9ff000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.383 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.853 seconds
+Domain Reload Profiling: 1236ms
+	BeginReloadAssembly (119ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (210ms)
+		LoadAssemblies (205ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (40ms)
+			TypeCache.Refresh (20ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (853ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (304ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (228ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3532 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (3.7 MB). Loaded Objects now: 4411.
+Memory consumption went from 0.56 GB to 0.55 GB.
+Total: 3.930417 ms (FindLiveObjects: 0.185042 ms CreateObjectMapping: 0.058083 ms MarkObjects: 2.660083 ms  DeleteObjects: 1.026542 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x17c9ff000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.404 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.871 seconds
+Domain Reload Profiling: 1276ms
+	BeginReloadAssembly (120ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (231ms)
+		LoadAssemblies (236ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (34ms)
+			TypeCache.Refresh (23ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (871ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (315ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (230ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3532 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (3.7 MB). Loaded Objects now: 4414.
+Memory consumption went from 0.56 GB to 0.56 GB.
+Total: 3.238458 ms (FindLiveObjects: 0.173292 ms CreateObjectMapping: 0.049042 ms MarkObjects: 2.180125 ms  DeleteObjects: 0.835208 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x17c9ff000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.382 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.579 seconds
+Domain Reload Profiling: 962ms
+	BeginReloadAssembly (119ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (204ms)
+		LoadAssemblies (197ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (45ms)
+			TypeCache.Refresh (34ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (580ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (334ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (256ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3532 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (3.7 MB). Loaded Objects now: 4417.
+Memory consumption went from 0.57 GB to 0.56 GB.
+Total: 3.809125 ms (FindLiveObjects: 0.178625 ms CreateObjectMapping: 0.052875 ms MarkObjects: 2.547458 ms  DeleteObjects: 1.029666 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x17c9ff000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.292 seconds
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.644 seconds
+Domain Reload Profiling: 937ms
+	BeginReloadAssembly (115ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (124ms)
+		LoadAssemblies (144ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (644ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (337ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (261ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3532 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (3.7 MB). Loaded Objects now: 4420.
+Memory consumption went from 0.57 GB to 0.57 GB.
+Total: 3.490208 ms (FindLiveObjects: 0.185041 ms CreateObjectMapping: 0.052709 ms MarkObjects: 2.420250 ms  DeleteObjects: 0.831792 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x17c9ff000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.345 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.917 seconds
+Domain Reload Profiling: 1263ms
+	BeginReloadAssembly (121ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (169ms)
+		LoadAssemblies (194ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (918ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (322ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (234ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3532 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (3.7 MB). Loaded Objects now: 4423.
+Memory consumption went from 0.57 GB to 0.57 GB.
+Total: 3.771167 ms (FindLiveObjects: 0.213958 ms CreateObjectMapping: 0.051958 ms MarkObjects: 2.439417 ms  DeleteObjects: 1.065209 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x17c9ff000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.422 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.853 seconds
+Domain Reload Profiling: 1275ms
+	BeginReloadAssembly (121ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (246ms)
+		LoadAssemblies (218ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (66ms)
+			TypeCache.Refresh (61ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (853ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (305ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (226ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3532 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (3.7 MB). Loaded Objects now: 4426.
+Memory consumption went from 0.58 GB to 0.57 GB.
+Total: 3.972750 ms (FindLiveObjects: 0.223000 ms CreateObjectMapping: 0.051416 ms MarkObjects: 2.694375 ms  DeleteObjects: 1.003125 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x17c9ff000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.377 seconds
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.821 seconds
+Domain Reload Profiling: 1198ms
+	BeginReloadAssembly (118ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (204ms)
+		LoadAssemblies (203ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (41ms)
+			TypeCache.Refresh (30ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (821ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (309ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (230ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3533 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (3.7 MB). Loaded Objects now: 4430.
+Memory consumption went from 0.58 GB to 0.58 GB.
+Total: 3.981083 ms (FindLiveObjects: 0.292333 ms CreateObjectMapping: 0.049833 ms MarkObjects: 2.472500 ms  DeleteObjects: 1.165792 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2514.656252 seconds.
+  path: Assets/InteractScript.cs
+  artifactKey: Guid(d4f567f2d78db4a27aab8402c5c41549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InteractScript.cs using Guid(d4f567f2d78db4a27aab8402c5c41549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a483c47f1b8aafaad6f528c57b6f6a1d') in 0.001110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x17c9ff000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.353 seconds
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.562 seconds
+Domain Reload Profiling: 916ms
+	BeginReloadAssembly (119ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (180ms)
+		LoadAssemblies (178ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (39ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (563ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (330ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (241ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3532 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (3.7 MB). Loaded Objects now: 4433.
+Memory consumption went from 0.58 GB to 0.58 GB.
+Total: 3.730791 ms (FindLiveObjects: 0.206125 ms CreateObjectMapping: 0.056000 ms MarkObjects: 2.252375 ms  DeleteObjects: 1.216250 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x282587000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.422 seconds
+Refreshing native plugins compatible for Editor in 2.20 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.877 seconds
+Domain Reload Profiling: 1300ms
+	BeginReloadAssembly (137ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (231ms)
+		LoadAssemblies (258ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (27ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (878ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (320ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (236ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3533 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (3.7 MB). Loaded Objects now: 4436.
+Memory consumption went from 0.59 GB to 0.58 GB.
+Total: 5.074333 ms (FindLiveObjects: 0.214667 ms CreateObjectMapping: 0.050458 ms MarkObjects: 3.693750 ms  DeleteObjects: 1.114750 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x282587000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.339 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.859 seconds
+Domain Reload Profiling: 1199ms
+	BeginReloadAssembly (119ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (166ms)
+		LoadAssemblies (187ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (860ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (311ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (237ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3533 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (3.7 MB). Loaded Objects now: 4439.
+Memory consumption went from 0.59 GB to 0.59 GB.
+Total: 4.241375 ms (FindLiveObjects: 0.175167 ms CreateObjectMapping: 0.051375 ms MarkObjects: 3.188625 ms  DeleteObjects: 0.825416 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x17c9ff000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.332 seconds
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.857 seconds
+Domain Reload Profiling: 1189ms
+	BeginReloadAssembly (124ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (153ms)
+		LoadAssemblies (175ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (857ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (302ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (225ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3533 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (3.7 MB). Loaded Objects now: 4442.
+Memory consumption went from 0.60 GB to 0.59 GB.
+Total: 3.754750 ms (FindLiveObjects: 0.217084 ms CreateObjectMapping: 0.062125 ms MarkObjects: 2.489416 ms  DeleteObjects: 0.985083 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x17c9ff000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.407 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.852 seconds
+Domain Reload Profiling: 1259ms
+	BeginReloadAssembly (138ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (214ms)
+		LoadAssemblies (239ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (30ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (852ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (313ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (235ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3533 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (3.7 MB). Loaded Objects now: 4445.
+Memory consumption went from 0.60 GB to 0.60 GB.
+Total: 3.656334 ms (FindLiveObjects: 0.179125 ms CreateObjectMapping: 0.051083 ms MarkObjects: 2.435625 ms  DeleteObjects: 0.989750 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x17c9ff000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.339 seconds
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.874 seconds
+Domain Reload Profiling: 1213ms
+	BeginReloadAssembly (120ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (164ms)
+		LoadAssemblies (185ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (874ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (313ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (228ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3533 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (3.7 MB). Loaded Objects now: 4448.
+Memory consumption went from 0.60 GB to 0.60 GB.
+Total: 3.418458 ms (FindLiveObjects: 0.185542 ms CreateObjectMapping: 0.053000 ms MarkObjects: 2.185666 ms  DeleteObjects: 0.993667 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x17c9ff000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.392 seconds
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.841 seconds
+Domain Reload Profiling: 1233ms
+	BeginReloadAssembly (123ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (214ms)
+		LoadAssemblies (210ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (43ms)
+			TypeCache.Refresh (32ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (842ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (305ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (229ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3533 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (3.7 MB). Loaded Objects now: 4451.
+Memory consumption went from 0.61 GB to 0.60 GB.
+Total: 3.409041 ms (FindLiveObjects: 0.171542 ms CreateObjectMapping: 0.053875 ms MarkObjects: 2.275125 ms  DeleteObjects: 0.907625 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x17c9ff000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.287 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.587 seconds
+Domain Reload Profiling: 875ms
+	BeginReloadAssembly (109ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (125ms)
+		LoadAssemblies (147ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (588ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (329ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (247ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3533 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (3.7 MB). Loaded Objects now: 4454.
+Memory consumption went from 0.61 GB to 0.61 GB.
+Total: 3.788250 ms (FindLiveObjects: 0.240791 ms CreateObjectMapping: 0.051417 ms MarkObjects: 2.360083 ms  DeleteObjects: 1.135583 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x17c9ff000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.382 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.895 seconds
+Domain Reload Profiling: 1278ms
+	BeginReloadAssembly (121ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (206ms)
+		LoadAssemblies (212ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (33ms)
+			TypeCache.Refresh (22ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (895ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (307ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (231ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3533 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (3.7 MB). Loaded Objects now: 4457.
+Memory consumption went from 0.62 GB to 0.61 GB.
+Total: 19.424833 ms (FindLiveObjects: 0.578291 ms CreateObjectMapping: 0.053542 ms MarkObjects: 17.665833 ms  DeleteObjects: 1.125375 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x17c9ff000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.304 seconds
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/ExternalPackages/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/SineVFX/PostProcessingV2/Runtime/Unity.Postprocessing.Runtime.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.634 seconds
+Domain Reload Profiling: 940ms
+	BeginReloadAssembly (114ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (138ms)
+		LoadAssemblies (159ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (634ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (339ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (238ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3533 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (3.7 MB). Loaded Objects now: 4460.
+Memory consumption went from 0.62 GB to 0.62 GB.
+Total: 3.757958 ms (FindLiveObjects: 0.216667 ms CreateObjectMapping: 0.054333 ms MarkObjects: 2.468917 ms  DeleteObjects: 1.017541 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

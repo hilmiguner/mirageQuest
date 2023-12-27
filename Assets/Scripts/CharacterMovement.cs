@@ -33,18 +33,6 @@ public class CharacterMovement : MonoBehaviour
 
     void FixedUpdate() 
     {
-        // if(Input.GetKey("w")) {
-        //     gameObject.transform.Translate(Vector3.forward*speed);
-        // }
-        // if(Input.GetKey("a")) {
-        //     gameObject.transform.Translate(Vector3.left*speed);
-        // }
-        // if(Input.GetKey("d")) {
-        //     gameObject.transform.Translate(Vector3.right*speed);
-        // }
-        // if(Input.GetKey("s")) {
-        //     gameObject.transform.Translate(Vector3.back*speed);
-        // }
         float x = Input.GetAxisRaw("Horizontal");
         float z = Input.GetAxisRaw("Vertical");
 

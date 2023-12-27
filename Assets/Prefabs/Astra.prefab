@@ -1905,6 +1905,7 @@ GameObject:
   - component: {fileID: 4495427814893611383}
   - component: {fileID: 3533303647086253061}
   - component: {fileID: 5322703941978438677}
+  - component: {fileID: 8022580299043678384}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1998,9 +1999,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0468d31cbc0284c8e9cdc82b04bc6206, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerObj: {fileID: 0}
+  playerObj: {fileID: 5786649822968008801}
   sensivity: 2
   verticalLimit: 40
+--- !u!114 &8022580299043678384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5364108913986833849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87145d064b786453682f057b27efbf07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5512410669066380566
 GameObject:
   m_ObjectHideFlags: 0
@@ -2293,6 +2306,7 @@ GameObject:
   - component: {fileID: 2844034030335277266}
   - component: {fileID: 8779495341051267580}
   - component: {fileID: 5899427223039859724}
+  - component: {fileID: 3006895338318783110}
   - component: {fileID: 5105437597775939708}
   - component: {fileID: 2372633853928869574}
   m_Layer: 0
@@ -2312,7 +2326,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 110, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.7159, y: 1.7159, z: 1.7159}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6402355145769062646}
@@ -2361,10 +2375,33 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.15
-  m_Height: 1.1
+  m_Radius: 0.21613745
+  m_Height: 1.0335202
   m_Direction: 1
-  m_Center: {x: 0, y: 0.55, z: 0}
+  m_Center: {x: -0.0024824387, y: 0.5832411, z: 0.027726635}
+--- !u!136 &3006895338318783110
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5786649822968008801}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.1393765
+  m_Height: 1.1122259
+  m_Direction: 1
+  m_Center: {x: -0.00248243, y: 0.54389006, z: 0.04387138}
 --- !u!54 &5105437597775939708
 Rigidbody:
   m_ObjectHideFlags: 0
