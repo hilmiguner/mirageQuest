@@ -70,8 +70,8 @@
     <Compile Include="Assets/ExternalPackages/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs" />
     <Compile Include="Assets/ExternalPackages/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs" />
     <Compile Include="Assets/ExternalPackages/3d-character_animeGirlAkane/DemoScene/Scripts/MyLightSc.cs" />
-    <Compile Include="Assets/ExternalPackages/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/DepthOfFieldDeprecated.cs" />
     <Compile Include="Assets/ExternalPackages/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs" />
+    <Compile Include="Assets/ExternalPackages/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/DepthOfFieldDeprecated.cs" />
     <Compile Include="Assets/ExternalPackages/#NVJOB Boids/Example Scenes/NVJOB Assets/FPS Counter/FPSCounter.cs" />
     <Compile Include="Assets/ExternalPackages/#NVJOB Boids/Example Scenes/Other/Scripts/SlowMo.cs" />
     <Compile Include="Assets/ExternalPackages/3d-character_animeGirlAkane/DemoScene/Scripts/Emotions.cs" />
@@ -81,8 +81,10 @@
     <Compile Include="Assets/ExternalPackages/3d-character_animeGirlAkane/DemoScene/Scripts/Akane_CharacterController.cs" />
     <Compile Include="Assets/ExternalPackages/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs" />
     <Compile Include="Assets/ExternalPackages/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/Fisheye.cs" />
+    <Compile Include="Assets/Scripts/Inventory.cs" />
     <Compile Include="Assets/ExternalPackages/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/Twirl.cs" />
     <Compile Include="Assets/ExternalPackages/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/DepthOfField.cs" />
+    <Compile Include="Assets/Scripts/TakeObject.cs" />
     <Compile Include="Assets/ExternalPackages/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/EdgeDetection.cs" />
     <Compile Include="Assets/ExternalPackages/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs" />
     <Compile Include="Assets/ExternalPackages/3d-character_animeGirlAkane/DemoScene/Scripts/Akane_CameraScript.cs" />
@@ -94,8 +96,8 @@
     <Compile Include="Assets/Scripts/CamMovement.cs" />
     <Compile Include="Assets/ExternalPackages/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/GlobalFog.cs" />
     <Compile Include="Assets/ExternalPackages/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs" />
-    <Compile Include="Assets/ExternalPackages/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/BlurOptimized.cs" />
     <Compile Include="Assets/Scripts/ElfTalkScript.cs" />
+    <Compile Include="Assets/ExternalPackages/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/BlurOptimized.cs" />
     <Compile Include="Assets/ExternalPackages/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs" />
     <Compile Include="Assets/ExternalPackages/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionRamp.cs" />
     <Compile Include="Assets/ExternalPackages/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/ImageEffects.cs" />
@@ -112,8 +114,8 @@
     <Compile Include="Assets/ExternalPackages/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/CameraMotionBlur.cs" />
     <Compile Include="Assets/ExternalPackages/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs" />
     <Compile Include="Assets/ExternalPackages/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs" />
-    <Compile Include="Assets/Scripts/OutOfMapCheck.cs" />
     <Compile Include="Assets/ExternalPackages/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs" />
+    <Compile Include="Assets/Scripts/OutOfMapCheck.cs" />
     <Compile Include="Assets/ExternalPackages/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs" />
     <Compile Include="Assets/ExternalPackages/#NVJOB Boids/Example Scenes/Other/Scripts/Shark.cs" />
     <Compile Include="Assets/ExternalPackages/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/SepiaTone.cs" />

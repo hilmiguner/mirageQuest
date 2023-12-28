@@ -5,6 +5,7 @@ using UnityEngine;
 public class LookingAtWhat : MonoBehaviour
 {
     public InteractScript interactionScript;
+    private TakeObject takeObjectScript;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,11 +24,16 @@ public class LookingAtWhat : MonoBehaviour
         if (Physics.Raycast(ray, out RaycastHit hit, 2.0f)) {
             if(hit.collider.gameObject.name == "GreenCrystal" && interactionScript.gameObject.activeSelf == false) {
                 interactionScript.gameObject.SetActive(true);
+                takeObjectScript = hit.collider.gameObject.GetComponent<TakeObject>();
+                takeObjectScript.isTakeable = true;
             }
         }
         else {
             if(interactionScript.gameObject.activeSelf == true) {
                 interactionScript.gameObject.SetActive(false);
+            }
+            if(takeObjectScript) {
+                takeObjectScript.isTakeable = false;
             }
         }
     }

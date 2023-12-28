@@ -12914,6 +12914,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2478912168969283448, guid: 0ed3fcdff03414314870afdb42d5c530, type: 3}
   m_PrefabInstance: {fileID: 1603239788}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1610878026 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3511417166881791913, guid: 02e8e5b60ab2f46868e4f05e47ca1c64, type: 3}
+  m_PrefabInstance: {fileID: 3088781996537937980}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5835848a84ed49a884313bd7e244d5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1611510747
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17712,32 +17723,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2478912168969283448, guid: 0ed3fcdff03414314870afdb42d5c530, type: 3}
   m_PrefabInstance: {fileID: 2139471732}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1936285947593473 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 985258085050013995, guid: 0e069f82b251d4fbda29125920db4643, type: 3}
-  m_PrefabInstance: {fileID: 5915877805695476507}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &4036079802049436
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1936285947593473}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 4.867557, y: 4.9253106, z: 4.1953373}
-  m_Center: {x: -0.381308, y: 1.9626554, z: -0.16041622}
 --- !u!1001 &173653715437627021
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17912,6 +17897,10 @@ PrefabInstance:
       propertyPath: interactionScript
       value: 
       objectReference: {fileID: 1412849997}
+    - target: {fileID: 8779495341051267580, guid: 02e8e5b60ab2f46868e4f05e47ca1c64, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17969,13 +17958,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenCrystal
       objectReference: {fileID: 0}
+    - target: {fileID: 2740002875481992995, guid: 0e069f82b251d4fbda29125920db4643, type: 3}
+      propertyPath: characterInventory
+      value: 
+      objectReference: {fileID: 1610878026}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 985258085050013995, guid: 0e069f82b251d4fbda29125920db4643, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 4036079802049436}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e069f82b251d4fbda29125920db4643, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
