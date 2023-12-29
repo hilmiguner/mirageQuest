@@ -5,18 +5,19 @@ using UnityEngine;
 public class ElfTalkScript : MonoBehaviour
 {
     public bool isTalking = false;
-    public bool isTalkLeft = true;
  
     public Subtitle_UI_Script UI_Subtitle_Script;
 
-    public int[] allTalks = {1};
     private List<KeyValuePair<string, float>> initialTalk_1 = new List<KeyValuePair<string, float>>();
+
+    public AudioSource audioSource;
+    public AudioClip[] audioClips;
 
     // Start is called before the first frame update
     void Start()
     {
-        addNewPair(initialTalk_1, "Test script talk", 2);
-        addNewPair(initialTalk_1, "ANOTHER TALK", 5);        
+        addNewPair(initialTalk_1, "Hello my child, my name is Hyperion and I am the protecter of this realm.", 5f);
+        addNewPair(initialTalk_1, "Welcome to the Mirage dimension.", 2.5f);        
     }
 
     // Update is called once per frame
@@ -27,9 +28,9 @@ public class ElfTalkScript : MonoBehaviour
 
     void OnTriggerEnter(Collider other) 
     {
-        if(other.name == "Astra" && !isTalking && isTalkLeft) {
+        if(other.name == "Astra" && !isTalking) {
             isTalking = true;
-            UI_Subtitle_Script.changeTextValue(initialTalk_1, 1);
+            UI_Subtitle_Script.changeTextValue(initialTalk_1, 0);
         }
     }
 

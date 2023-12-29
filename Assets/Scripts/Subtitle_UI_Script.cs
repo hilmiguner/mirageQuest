@@ -28,20 +28,19 @@ public class Subtitle_UI_Script : MonoBehaviour
 
     }
 
-    public async void changeTextValue(List<KeyValuePair<string, float>> talkList, int talkID) {
+    public async void changeTextValue(List<KeyValuePair<string, float>> talkList, int index) {
         subtitleLabel.style.backgroundColor = black;
         foreach (KeyValuePair<string, float> pair in talkList) 
         {
             subtitleLabel.text = pair.Key;
+            etc.audioSource.clip = etc.audioClips[index];
+            etc.audioSource.Play();
+            index++;
             await Task.Delay((int)Math.Round(pair.Value*1000));
         }
         subtitleLabel.style.backgroundColor = transparentColor;
         subtitleLabel.text = "";
-        etc.allTalks = Array.FindAll(etc.allTalks, val => val != talkID);
         etc.isTalking = false;
-        if(etc.allTalks.Length == 0) {
-            etc.isTalkLeft = false;
-        }
     }
 
     void resetSubtitleLabel() {
