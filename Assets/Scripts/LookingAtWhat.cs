@@ -21,8 +21,9 @@ public class LookingAtWhat : MonoBehaviour
     private void LookingObject()
     {
         Ray ray = new Ray(transform.position , transform.forward);
-        if (Physics.Raycast(ray, out RaycastHit hit, 2.0f)) {
-            if(hit.collider.gameObject.name == "GreenCrystal" && interactionScript.gameObject.activeSelf == false) {
+        if (Physics.Raycast(ray, out RaycastHit hit, 2.5f)) {
+            print(hit.collider.gameObject.name);
+            if(hit.collider.gameObject.tag == "GreenCrystal" && interactionScript.gameObject.activeSelf == false) {
                 interactionScript.gameObject.SetActive(true);
                 takeObjectScript = hit.collider.gameObject.GetComponent<TakeObject>();
                 takeObjectScript.isTakeable = true;
