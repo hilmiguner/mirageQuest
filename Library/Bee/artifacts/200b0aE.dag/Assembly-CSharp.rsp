@@ -414,6 +414,7 @@
 "Assets/Scripts/Inventory.cs"
 "Assets/Scripts/LookingAtWhat.cs"
 "Assets/Scripts/OutOfMapCheck.cs"
+"Assets/Scripts/PhoenixMovement.cs"
 "Assets/Scripts/Subtitle_UI_Script.cs"
 "Assets/Scripts/TakeObject.cs"
 -langversion:9.0

@@ -11,6 +11,9 @@ public class Subtitle_UI_Script : MonoBehaviour
     private VisualElement rootContainer;
     private Label subtitleLabel;
     public ElfTalkScript etc;
+    public PhoenixMovement pm;
+
+    public GameObject pfp1;
 
     private Color black = Color.black;
     private Color transparentColor = new Color(0,0,0,0);
@@ -37,6 +40,10 @@ public class Subtitle_UI_Script : MonoBehaviour
             etc.audioSource.Play();
             index++;
             await Task.Delay((int)Math.Round(pair.Value*1000));
+        }
+        if(index == 2) {
+            pm.canPhoenixMove = true;
+            pm.target = pfp1.transform;
         }
         subtitleLabel.style.backgroundColor = transparentColor;
         subtitleLabel.text = "";

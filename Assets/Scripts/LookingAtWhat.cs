@@ -22,7 +22,6 @@ public class LookingAtWhat : MonoBehaviour
     {
         Ray ray = new Ray(transform.position , transform.forward);
         if (Physics.Raycast(ray, out RaycastHit hit, 2.5f)) {
-            print(hit.collider.gameObject.name);
             if(hit.collider.gameObject.tag == "GreenCrystal" && interactionScript.gameObject.activeSelf == false) {
                 interactionScript.gameObject.SetActive(true);
                 takeObjectScript = hit.collider.gameObject.GetComponent<TakeObject>();

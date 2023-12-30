@@ -76,6 +76,7 @@
     <Compile Include="Assets/ExternalPackages/#NVJOB Boids/Example Scenes/Other/Scripts/SlowMo.cs" />
     <Compile Include="Assets/ExternalPackages/3d-character_animeGirlAkane/DemoScene/Scripts/Emotions.cs" />
     <Compile Include="Assets/ExternalPackages/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/Vortex.cs" />
+    <Compile Include="Assets/Scripts/PhoenixMovement.cs" />
     <Compile Include="Assets/ExternalPackages/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs" />
     <Compile Include="Assets/ExternalPackages/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/Antialiasing.cs" />
     <Compile Include="Assets/ExternalPackages/3d-character_animeGirlAkane/DemoScene/Scripts/Akane_CharacterController.cs" />
