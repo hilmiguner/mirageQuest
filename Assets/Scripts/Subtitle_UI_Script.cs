@@ -12,6 +12,11 @@ public class Subtitle_UI_Script : MonoBehaviour
     private Label subtitleLabel;
     public ElfTalkScript etc;
     public PhoenixMovement pm;
+    public CharacterMovement cm;
+    public TakeObject to;
+    public PhoenixAudio pa;
+    public HudScript hudsc;
+    public Inventory inventory;
 
     public GameObject pfp1;
 
@@ -32,6 +37,15 @@ public class Subtitle_UI_Script : MonoBehaviour
     }
 
     public async void changeTextValue(List<KeyValuePair<string, float>> talkList, int index) {
+        if(index == 0) {
+            hudsc.doneCurrentQuest();
+        }
+        if(index == 12) {
+            hudsc.doneCurrentQuest();
+        }
+        if(index != 0 && index != 14) {
+            cm.isFrozen = true;
+        }
         subtitleLabel.style.backgroundColor = black;
         foreach (KeyValuePair<string, float> pair in talkList) 
         {
@@ -44,6 +58,21 @@ public class Subtitle_UI_Script : MonoBehaviour
         if(index == 2) {
             pm.canPhoenixMove = true;
             pm.target = pfp1.transform;
+            pa.playScreamSound();
+        }
+        if(index == 12) {
+            cm.isFrozen = false;
+            to.gameObject.tag = "GreenCrystal";
+            hudsc.changeQuestText("Find all the jade crystals");
+            hudsc.showCrystalContainer();
+            pm.canPhoenixMove = true;
+        }
+        if(index == 14) {
+            cm.isFrozen = false;
+            inventory.hasWand = true;
+            hudsc.changeQuestText("Go to black fog to wake up.");
+            hudsc.showLeftContainer();
+            pm.canPhoenixMove = true;
         }
         subtitleLabel.style.backgroundColor = transparentColor;
         subtitleLabel.text = "";

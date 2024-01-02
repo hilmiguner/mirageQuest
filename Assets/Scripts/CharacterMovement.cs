@@ -11,10 +11,12 @@ public class CharacterMovement : MonoBehaviour
     public float jumpingThrust = 7.0f;
     private float nextJumpTime;
     public float jumpDuration = 0.1f;
+    
+    public bool isFrozen = false;
 
     void Start()
     {
-        
+
     }
     
     void Update()
@@ -33,20 +35,27 @@ public class CharacterMovement : MonoBehaviour
 
     void FixedUpdate() 
     {
-        float x = Input.GetAxisRaw("Horizontal");
-        float z = Input.GetAxisRaw("Vertical");
+        if(isFrozen) {
+            Vector3 velocity = Vector3.zero;
+            velocity.y = rigidBody.velocity.y;
+            rigidBody.velocity = velocity;
+        }
+        else {
+            float x = Input.GetAxisRaw("Horizontal");
+            float z = Input.GetAxisRaw("Vertical");
 
-        Vector3 velocity = Vector3.zero;
-        velocity += x*transform.right;
-        velocity += z*transform.forward;
-        velocity *= speed;
+            Vector3 velocity = Vector3.zero;
+            velocity += x*transform.right;
+            velocity += z*transform.forward;
+            velocity *= speed;
 
-        velocity.y = rigidBody.velocity.y;
-        rigidBody.velocity = velocity;
+            velocity.y = rigidBody.velocity.y;
+            rigidBody.velocity = velocity;
 
-        if(Input.GetKey("space") && IsGrounded() && Time.timeSinceLevelLoad >= nextJumpTime) {
-            rigidBody.AddForce(Vector3.up * jumpingThrust, ForceMode.Impulse);
-            nextJumpTime = Time.timeSinceLevelLoad + jumpDuration;
+            if(Input.GetKey("space") && IsGrounded() && Time.timeSinceLevelLoad >= nextJumpTime) {
+                rigidBody.AddForce(Vector3.up * jumpingThrust, ForceMode.Impulse);
+                nextJumpTime = Time.timeSinceLevelLoad + jumpDuration;
+            }
         }
     }
 }

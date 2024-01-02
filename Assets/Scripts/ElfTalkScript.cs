@@ -6,12 +6,18 @@ public class ElfTalkScript : MonoBehaviour
 {
     public bool isTalking = false;
     public bool isMistralStopped = false;
-    private bool isFirstTalkDone = false;
+    public bool isFirstTalkDone = false;
+    public bool isSecondTalkDone = false;
+    public bool isBeforeCrystalTalkDone = false;
+    public bool isLastTalkDone = false;
  
     public Subtitle_UI_Script UI_Subtitle_Script;
+    public NearestCrystal nc;
 
     private List<KeyValuePair<string, float>> initialTalk_1 = new List<KeyValuePair<string, float>>();
     private List<KeyValuePair<string, float>> afterMistralTalk_1 = new List<KeyValuePair<string, float>>();
+    private List<KeyValuePair<string, float>> afterCrystalsTalk_1 = new List<KeyValuePair<string, float>>();
+    private List<KeyValuePair<string, float>> beforeFindingCrystals_1 = new List<KeyValuePair<string, float>>();
 
     public AudioSource audioSource;
     public AudioClip[] audioClips;
@@ -32,6 +38,11 @@ public class ElfTalkScript : MonoBehaviour
         addNewPair(afterMistralTalk_1, "As you can see one of the crystals is behind me. You can start by picking it up.", 5f);
         addNewPair(afterMistralTalk_1, "When you find the six crystals, come back to me. I'll give you the wand.", 4f);
         addNewPair(afterMistralTalk_1, "If you have trouble the finding the crystals, look up in the sky and look for Mistral. He will fly over the areas where the crystals are found.", 8f);
+
+        addNewPair(afterCrystalsTalk_1, "Very good, you found all the crystals. Let me build the wand.", 8f);
+        addNewPair(afterCrystalsTalk_1, "Here, take the wand. With this wand, you can get out of this realm.", 4f);
+
+        addNewPair(beforeFindingCrystals_1, "You haven't found them all yet. Come back when you found them all.", 4f);
     }
 
     // Update is called once per frame
@@ -46,6 +57,20 @@ public class ElfTalkScript : MonoBehaviour
             isTalking = true;
             UI_Subtitle_Script.changeTextValue(initialTalk_1, 0);
             isFirstTalkDone = true;
+        }
+        if(other.name == "Astra" && !isTalking && isFirstTalkDone && !isSecondTalkDone) {
+            isTalking = true;
+            UI_Subtitle_Script.changeTextValue(afterMistralTalk_1, 2);
+            isSecondTalkDone = true;
+        }
+        if(other.name == "Astra" && !isTalking && !isBeforeCrystalTalkDone) {
+            isTalking = true;
+            UI_Subtitle_Script.changeTextValue(beforeFindingCrystals_1, 14);
+        }
+        if(other.name == "Astra" && !isTalking && !isLastTalkDone && nc.isFoundAllCrystals) {
+            isTalking = true;
+            isLastTalkDone = true;
+            UI_Subtitle_Script.changeTextValue(afterCrystalsTalk_1, 12);
         }
     }
 

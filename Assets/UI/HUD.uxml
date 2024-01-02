@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="RootContainer" style="flex-grow: 1; flex-direction: row;">
+        <ui:VisualElement name="LeftContainer" style="flex-grow: 2; flex-basis: auto; display: flex; opacity: 1; visibility: visible;">
+            <ui:VisualElement name="WandContainer" style="flex-grow: 0; border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; position: relative; width: 100px; height: 100px; margin-left: 5px; margin-top: 5px; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; background-image: url(&apos;project://database/Assets/Images/CrystalWand.png?fileID=2800000&amp;guid=c04f5a485ad5b4b8ea88ed8cf93a4422&amp;type=3#CrystalWand&apos;); background-color: rgba(0, 0, 0, 0);" />
+        </ui:VisualElement>
+        <ui:VisualElement name="RightContainer" style="flex-grow: 0.5; flex-basis: auto; flex-shrink: 1;">
+            <ui:VisualElement name="CrystalContainer" style="flex-grow: 0; flex-direction: row; align-items: flex-end; justify-content: flex-end; align-self: auto; height: 75px; margin-top: 5px;">
+                <ui:VisualElement name="CrystalImage" style="flex-grow: initial; -unity-background-image-tint-color: rgb(255, 255, 255); background-image: url(&apos;project://database/Assets/Images/GreenCrystal.png?fileID=2800000&amp;guid=d18d8e6fdb5ae43a391b954017db6051&amp;type=3#GreenCrystal&apos;); flex-shrink: initial; width: 75px; height: 75px; background-color: rgba(255, 255, 255, 0);" />
+                <ui:Label tabindex="-1" text=": 0&#10;" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CrystalLabel" style="-unity-font-style: bold; font-size: 51px; -unity-text-align: upper-left; color: rgb(255, 255, 255);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="QuestContainer" style="flex-grow: 0; visibility: visible; flex-wrap: wrap; flex-direction: column; flex-shrink: 0; white-space: normal; text-overflow: clip;">
+                <ui:Label tabindex="-1" text="QUEST" parse-escape-sequences="true" display-tooltip-when-elided="true" name="QuestTopicLabel" style="-unity-font-style: bold; font-size: 18px; border-bottom-width: 2px; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); color: rgb(255, 255, 255); background-color: rgba(255, 255, 255, 0);" />
+                <ui:Label tabindex="-1" parse-escape-sequences="false" display-tooltip-when-elided="true" name="QuestLabel" enable-rich-text="true" style="-unity-font-style: normal; font-size: 14px; border-bottom-width: 0; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); color: rgb(255, 255, 255); white-space: nowrap; flex-wrap: wrap; height: 25px; flex-direction: row; flex-grow: 0; flex-shrink: 0; text-overflow: clip; -unity-text-align: upper-left;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
